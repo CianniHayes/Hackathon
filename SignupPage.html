@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    
+   <style>
+h1 {color:red;}
+p {color:blue;}
+body{
+    position: fixed;
+    width: 100%;
+    background-image:url("image (1).png");
+    background-size: cover;
+    -webkit-filter:blur(0px);
+       }
+input[type=text], input[type=password] {
+ 
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: black;
+    text-decoration-color: black;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+
+}
+.Signup{
+	position: absolute;
+	top: 90%;
+	left: 40%;
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	
+}
+
+input[type=button]{
+	width: 260px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #00cc00;
+	font-family: 'Exo', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	padding: 2px;
+	margin-top: 10px;
+}
+
+.login input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.login input[type=button]:active{
+	opacity: 0.6;
+}
+
+       
+</style>
+
+    
+<body>
+    
+
+<h1 align="center" >FIND YOUR FUTURE </h1>
+<p align= "center">DESCRIPTION OF OUR WEBSITE</p>
+    
+
+
+
+		
+		<br>
+		<form name="Signup">
+		<div class="Signup">
+				<input type="text" placeholder="Username" name="username"><br>
+                <input type= "text" placeholder="Email" name="Email"><br>
+				<input type="password" placeholder="Password" name="password"><br>
+				<input type= "password" placeholder="Reenter Password" name="Reenter Password"> <br>
+                <input type="button" onclick="window.location.href='LoginPage.html'";
+                       		value="Submit" />
+		</div>
+</form>
+
+</body>
+</html>
